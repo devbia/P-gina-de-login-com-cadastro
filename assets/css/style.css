@@ -1,0 +1,161 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ececea;
+    margin: 0;
+    padding: 0;
+}
+
+/* PÁGINA DE LOGIN */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 40%;
+}
+
+.title {
+    font-size: 39px;
+    font-weight: 700;
+    color:#333333;
+    line-height: 47px;
+
+}
+
+.icon-user {
+    width: 80px;
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.text-input {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+
+}
+
+
+label {
+    border-bottom: 1px solid #555;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+
+.btn {
+    margin-top: 20px;
+    background-color: #57b846;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 30px 0 rgba(87,184,70,.5);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #57b846;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.text-account {
+    font-size: 15px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+     .title {
+        font-size: 30px;
+     }   
+
+     .icon-user {
+        width: 50px;
+    }
+
+    .form {
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 777px) {
+    .form {
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 783px) {
+    .form {
+        width: 60%;
+    }
+
+}
+
+@media (min-width: 784px) and (max-width: 1122px){
+    .form {
+        width: 40%;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 500px){
+    .form {
+        width: 80%;
+    }
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centralizar os formulários horizontalmente */
+    align-items: center; /* Centralizar os formulários verticalmente */
+    height: 100vh; /* Definir a altura total da janela de visualização */
+    width: 100%;
+}
+
+.container .form-group {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+    
+}
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 40%;
+}
+
